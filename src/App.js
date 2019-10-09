@@ -20,18 +20,13 @@ class App extends Component {
   toggleDisplayBio = () =>{
     this.setState({ displayBio: !this.state.displayBio});
 }
-  // readMore(){
-  //   console.log('readMore this', this);
-  //   // this.state({ displayBio: true})
-
-  // }
+ 
 
  render(){
    return(
      <div>
-       <image src={profile} alt='profile' className='profile' max-width:50%;
-    height:auto; />
-       <img src={profile} alt='profile' />
+       <img src={profile} alt='profile' alt="Avatar" width="250" height="250"
+/>
        <h1><strong>Hello!</strong></h1>
        <p class="mySlides">My name is <strong >Azola</strong> I am a <strong>Software engineer</strong> . </p>
 
